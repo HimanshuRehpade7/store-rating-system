@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Environment files (NEVER push real .env)
+backend/.env
+.env
+
+# Build outputs
+backend/dist/
+frontend/dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
